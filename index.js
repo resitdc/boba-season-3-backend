@@ -17,5 +17,6 @@ app.use(cors());
 app.use(express.json());
 
 require("./module/menu")
+require("./module/transactions")
 
 app.listen(3000)
